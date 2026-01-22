@@ -1,0 +1,31 @@
+<?php
+
+use App\Http\Controllers\cartcontroller;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\user;
+use Illuminate\Support\Facades\Route;
+Route::view('/','welcome');
+Route::view('/signup','user.signup');
+Route::post('/signup',[user::class,'register']);
+Route::post('/login',[user::class,'signin']);
+Route::post('/logout',[User::class,'signout']);
+Route::view('/login',view: 'user.login')->name('login');
+
+
+Route::post('/shop',[CartController::class,'addtocart'])->middleware('auth');
+
+
+
+
+Route::post('/logout',[User::class,'signout']);
+Route::view('/Addproduct','user.singleproduct');
+Route::get('/',[ProductController::class,'getlaptops']);
+Route::prefix('/seller')->group(function(){
+    Route::view('/admin','seller.adminPanel')->middleware(['auth','seller']);
+Route::post('/add-product',[ProductController::class,'Addproducts']);
+});
+
+//get routes
+Route::get('/singleproduct/{id}',[ProductController::class,'getsingledata']);
+
+Route::get('/company/{company}',[ProductController::class,'getspecificdata']);
