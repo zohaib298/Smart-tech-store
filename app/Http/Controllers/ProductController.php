@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\products;
+use App\Models\product;
 use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
 
@@ -19,26 +19,26 @@ class ProductController extends Controller
  ]);
  //store the image in the server
  $formfields['product_image'] = $req->file('product_image')->store('product_images','public');
- $formfields = products::create($formfields);
+ $formfields = product::create($formfields);
  return back()->with('message','product added successfully');
  }
 
 
 
  public function getlaptops(){
-    $products = products::all();
+    $products = product::all();
     return view('welcome',compact('products'));
  }
 
 
  public function getsingledata($id){
-   $singledata = products::find($id);
+   $singledata = product::find($id);
    return view('user.singleproduct',compact('singledata'));
  }
 
 
  public function getspecificdata($company){
- $relevantproduct = products::where('category',$company)->get();
+ $relevantproduct = product::where('category',$company)->get();
  return view('user.company',compact('relevantproduct'));
 
  }

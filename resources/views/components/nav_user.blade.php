@@ -33,7 +33,27 @@
            @endguest
         
        
+
+
+
+      @auth
+    @php
+        $cartCount = \App\Models\cart::where('user_id', Auth::id())->sum('quantity');
+    @endphp
+    <a href="/shop" class="relative">
         <i class="bi bi-bag text-xl"></i>
+        <span id="cart-count" 
+              class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+            {{ $cartCount }}
+        </span>
+    </a>
+@endauth
+@guest
+      <i class="bi bi-bag text-xl cursor-pointer"></i>
+@endguest
+
+          
+
         </div>
 
     </div>
