@@ -3,6 +3,7 @@
 use App\Http\Controllers\cartcontroller;
 use App\Http\Controllers\ordercontroller;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\sellerOrders;
 use App\Http\Controllers\user;
 use Illuminate\Support\Facades\Route;
 Route::view('/','welcome');
@@ -22,6 +23,8 @@ Route::post('/checkout', [OrderController::class, 'checkout'])
     ->name('checkout');
 
 
+    Route::view('/orders','seller.orders');
+    Route::get('/orders',[sellerOrders::class,'getorders']);
 Route::post('/logout',[User::class,'signout']);
 Route::view('/Addproduct','user.singleproduct');
 Route::get('/',[ProductController::class,'getlaptops']);

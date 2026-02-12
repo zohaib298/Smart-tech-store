@@ -3,25 +3,24 @@
 namespace App\Http\Controllers;
 
 use App\Models\cart;
-use App\Models\order;
 use App\Models\orderitem;
+use App\Models\orders;
 use Illuminate\Http\Request;
 
-class OrderController extends Controller
+class ordercontroller extends Controller
 {
-  public function checkout()
+     public function checkout()
     {
         $cartItems = Cart::with('product')
             ->where('user_id', auth()->id())
             ->get();
 
         $total = 0;
-
         foreach ($cartItems as $item) {
             $total += $item->product->product_price * $item->quantity;
         }
 
-        $order = order::create([
+        $order = orders::create([
             'user_id' => auth()->id(),
             'total_price' => $total,
         ]);

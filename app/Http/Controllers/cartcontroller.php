@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Models\cart;
 use Illuminate\Http\Request;
+
 class cartcontroller extends Controller
 {
-
- public function viewCart()
+     public function viewCart()
 {
     $cartItems = Cart::with('product')
         ->where('user_id', auth()->id())
@@ -40,5 +40,4 @@ public function addToCart(Request $req){
 
     return redirect()->route('cart.view')->with('message','Added to Cart');
 }
-
 }

@@ -3,28 +3,11 @@
     <body class="bg-neutral-100 text-neutral-900">
 
   <!-- Top bar -->
-  
+  <div class="flex gap-2">
+<x-sidebar />
+<div class="w-[80%]  px-6 py-8  gap-8">
 
-  <div class="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-[240px_1fr] gap-8">
-
-    <!-- Sidebar -->
-    <aside class="bg-white rounded-2xl  p-5 h-fit shadow-sm">
-      <h2 class="text-sm font-semibold text-neutral-500 mb-4">
-        Seller Panel
-      </h2>
-      <nav class="space-y-1 text-sm">
-        <a href="#" class="block px-4 py-2 rounded-lg bg-neutral-900 text-white">
-          Add Product
-        </a>
-        <a href="#" class="block px-4 py-2 rounded-lg text-neutral-600 hover:bg-neutral-100">
-          Products
-        </a>
-        <a href="#" class="block px-4 py-2 rounded-lg text-neutral-600 hover:bg-neutral-100">
-          Orders
-        </a>
-      </nav>
-    </aside>
-
+    
     <!-- Main -->
     <main class="space-y-6">
 
@@ -166,6 +149,11 @@
        
     </main>
   </div>
+
+
+  </div>
+
+  
 
 </body>
 <script>
