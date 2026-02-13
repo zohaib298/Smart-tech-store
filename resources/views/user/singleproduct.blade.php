@@ -48,7 +48,9 @@
             <p class="my-4 text-sm">{{ $singledata['product_description'] }}</p>
         </div>
     </form>
+   <x-brands />
 
+   <x-footer />
     <script>
         const buttons = document.querySelectorAll('.option-btn');
 

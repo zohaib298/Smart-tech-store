@@ -9,7 +9,7 @@ class cartcontroller extends Controller
 {
      public function viewCart()
 {
-    $cartItems = Cart::with('product')
+    $cartItems = cart::with('product')
         ->where('user_id', auth()->id())
         ->get();
 

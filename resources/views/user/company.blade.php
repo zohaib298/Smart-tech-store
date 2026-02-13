@@ -16,8 +16,11 @@
             </div>
             <div class=" col-span-2"></div>
         </div>
-  @else
-      <h4 class="text-red-500 text-center my-10">No deals available</h4>
-
+        <x-brands />
+        
+ 
 </div>
+<x-footer  />
+ @else
+      <h4 class="text-red-500 text-center my-10">No deals available</h4>
 </x-layout>

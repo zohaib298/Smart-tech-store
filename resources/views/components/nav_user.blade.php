@@ -3,14 +3,13 @@
         <x-flash />
         <ul class="unstyled sm:flex hidden  gap-5 items-center text-sm">
             <li>
-                <a class="underline" href="#">Home</a>
+                <a class="underline" href="/">Home</a>
             </li>
             <li>
-                <a class="text-gray-700 hover:underline" href="#">Shop by Brand</a>
-                <i class="bi bi-chevron-down"></i>
+                <a class="text-gray-700 hover:underline" href="#shopbybrand">Shop by Brand</a>
             </li>
             <li>
-                <a class="text-gray-700 hover:underline" href="#">Contact</a>
+                <a class="text-gray-700 hover:underline" href="/contact">Contact</a>
             </li>
         </ul>
          <button id="menuBtn" class="sm:hidden flex text-2xl">
@@ -52,7 +51,9 @@
 @endauth
 
 @guest
+<a href="/shop">
       <i class="bi bi-bag text-xl cursor-pointer"></i>
+      </a>
 @endguest
 
           

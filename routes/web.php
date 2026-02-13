@@ -22,7 +22,7 @@ Route::post('/checkout', [OrderController::class, 'checkout'])
     ->middleware('auth')
     ->name('checkout');
 
-
+    Route::view('/contact','user.contact');
     Route::view('/orders','seller.orders');
     Route::get('/orders',[sellerOrders::class,'getorders']);
 Route::post('/logout',[User::class,'signout']);

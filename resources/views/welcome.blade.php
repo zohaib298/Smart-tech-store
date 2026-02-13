@@ -48,7 +48,7 @@
 <div class="container mx-auto my-10">
     <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
     <div class="p-2 relative">
-        <h3 class="text-2xl my-5">SHOP BY BRAND</h3>
+        <h3 id="shopbybrand" class="text-2xl my-5">SHOP BY BRAND</h3>
 
         <div class="
             flex gap-4 overflow-x-auto scrollbar-hide
