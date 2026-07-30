@@ -97,25 +97,25 @@
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-items-center">
 
                 <div class="bg-white shadow rounded-xl p-4 w-full h-[90px] flex items-center justify-center">
-                    <img src="{{ asset('images/brands/dell-logo.png') }}"
+                    <img src="https://placehold.co/240x90/ffffff/1f2937?text=DELL&font=roboto"
                          alt="Dell"
                          class="max-h-[50px] object-contain">
                 </div>
 
                 <div class="bg-white shadow rounded-xl p-4 w-full h-[90px] flex items-center justify-center">
-                    <img src="{{ asset('images/brands/hp-logo.png') }}"
+                    <img src="https://placehold.co/240x90/ffffff/0096d6?text=hp&font=roboto"
                          alt="HP"
                          class="max-h-[50px] object-contain">
                 </div>
 
                 <div class="bg-white shadow rounded-xl p-4 w-full h-[90px] flex items-center justify-center">
-                    <img src="{{ asset('images/brands/lenovo-logo.png') }}"
+                    <img src="https://placehold.co/240x90/ffffff/e2231a?text=Lenovo&font=roboto"
                          alt="Lenovo"
                          class="max-h-[50px] object-contain">
                 </div>
 
                 <div class="bg-white shadow rounded-xl p-4 w-full h-[90px] flex items-center justify-center">
-                    <img src="{{ asset('images/brands/asus-logo.png') }}"
+                    <img src="https://placehold.co/240x90/ffffff/000000?text=ASUS&font=roboto"
                          alt="Asus"
                          class="max-h-[50px] object-contain">
                 </div>
@@ -158,7 +158,7 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="{{ asset('images/acer-laptop.jpg') }}"
+        <img src="https://placehold.co/400x300/f3f4f6/374151?text=Acer+Laptop&font=roboto"
              alt="Acer Laptop"
              class="h-[140px] sm:h-[170px] w-full object-contain">
         <img src="https://smarttechstore.com/cdn/shop/files/lazada-logo-png_seeklogo-504219.png?v=1766236339&width=1000"
@@ -168,7 +168,7 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="{{ asset('images/hp-laptop.jpg') }}"
+        <img src="https://placehold.co/400x300/f3f4f6/374151?text=HP+Laptop&font=roboto"
              alt="HP Laptop"
              class="h-[140px] sm:h-[170px] w-full object-contain">
         <img src="https://smarttechstore.com/cdn/shop/files/shopee.jpg?v=1766236318&width=1000"
@@ -178,7 +178,7 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="{{ asset('images/asus-laptop.jpg') }}"
+        <img src="https://placehold.co/400x300/f3f4f6/374151?text=Asus+Laptop&font=roboto"
              alt="Asus Laptop"
              class="h-[140px] sm:h-[170px] w-full object-contain">
         <img src="https://smarttechstore.com/cdn/shop/files/tiktok_shop.webp?v=1766237079&width=1000"
