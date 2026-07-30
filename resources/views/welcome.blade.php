@@ -1,7 +1,7 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1400" alt="Sale Banner" class="w-full h-[200px] object-cover object-center">
+  <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1400" alt="Sale Banner" class="w-full h-[400px] object-cover object-center">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -45,7 +45,7 @@
 <img 
     src="https://images.unsplash.com/photo-1468436139062-f60a71c5c892?w=1400" 
     alt="" 
-    class="my-2 w-full h-[200px] object-cover object-center rounded"
+    class="my-2 w-full h-[400px] object-cover object-center rounded"
 >
 
 <div class="container mx-auto my-10">
