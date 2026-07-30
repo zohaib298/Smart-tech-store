@@ -158,9 +158,9 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="https://placehold.co/400x300/f3f4f6/374151?text=Acer+Laptop&font=roboto"
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop"
              alt="Acer Laptop"
-             class="h-[140px] sm:h-[170px] w-full object-contain">
+             class="h-[140px] sm:h-[170px] w-full object-cover rounded">
         <img src="https://smarttechstore.com/cdn/shop/files/lazada-logo-png_seeklogo-504219.png?v=1766236339&width=1000"
              class="h-10 object-contain">
     </div>
@@ -168,9 +168,9 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="https://placehold.co/400x300/f3f4f6/374151?text=HP+Laptop&font=roboto"
+        <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop"
              alt="HP Laptop"
-             class="h-[140px] sm:h-[170px] w-full object-contain">
+             class="h-[140px] sm:h-[170px] w-full object-cover rounded">
         <img src="https://smarttechstore.com/cdn/shop/files/shopee.jpg?v=1766236318&width=1000"
              class="h-10 object-contain">
     </div>
@@ -178,9 +178,9 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex flex-col items-center justify-center 
                 h-[280px] sm:h-[320px] lg:h-[350px] p-6 gap-3">
-        <img src="https://placehold.co/400x300/f3f4f6/374151?text=Asus+Laptop&font=roboto"
+        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop"
              alt="Asus Laptop"
-             class="h-[140px] sm:h-[170px] w-full object-contain">
+             class="h-[140px] sm:h-[170px] w-full object-cover rounded">
         <img src="https://smarttechstore.com/cdn/shop/files/tiktok_shop.webp?v=1766237079&width=1000"
              class="h-10 object-contain">
     </div>
