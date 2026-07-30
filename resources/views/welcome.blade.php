@@ -162,11 +162,6 @@
                  alt="Lazada"
                  class="max-h-full max-w-full object-contain">
         </div>
-        <div class="w-full flex items-center justify-center py-4">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/054/650/831/small_2x/lazada-logo-rounded-lazada-logo-free-png.png"
-                 alt="Lazada"
-                 class="h-10 object-contain">
-        </div>
     </div>
 
     <div class="bg-white shadow-xl rounded-2xl overflow-hidden
@@ -176,11 +171,6 @@
                  alt="Shopee"
                  class="max-h-full max-w-full object-contain">
         </div>
-        <div class="w-full flex items-center justify-center py-4">
-            <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/itxiuybmyrbkkhrykvzi?ik-sanitizeSvg=true"
-                 alt="Shopee"
-                 class="h-10 object-contain">
-        </div>
     </div>
 
     <div class="bg-white shadow-xl rounded-2xl overflow-hidden
@@ -189,11 +179,6 @@
             <img src="https://www.channelengine.com/hs-fs/hubfs/TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg?width=600&height=600&name=TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg"
                  alt="TikTok Shop"
                  class="max-h-full max-w-full object-contain">
-        </div>
-        <div class="w-full flex items-center justify-center py-4">
-            <img src="https://www.channelengine.com/hs-fs/hubfs/TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg?width=600&height=600&name=TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg"
-                 alt="TikTok Shop"
-                 class="h-10 object-contain">
         </div>
     </div>
 
