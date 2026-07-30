@@ -1,7 +1,6 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" alt="Sale Banner" class="w-full h-[400px] object-cover object-center">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -28,8 +27,6 @@
       <h4 class="text-red-500 text-center my-10">No deals available</h4>
   @endif
 </div>
-
-<img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=1400" alt="" class="my-2 w-full h-[400px] object-cover object-center rounded">
 
 <div class="container mx-auto my-10">
     <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
