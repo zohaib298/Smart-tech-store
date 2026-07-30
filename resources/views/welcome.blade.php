@@ -1,7 +1,7 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="{{ asset('sale.jpg') }}" alt="My Image">
+  <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1400" alt="Sale Banner" class="w-full h-auto object-cover">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -20,7 +20,8 @@
                    class="p-3 text-center h-[260px]">
 
                     <img src="{{ asset('storage/' . $item['product_image']) }}"  
-                         class="h-[180px] w-full object-cover rounded">
+                         class="h-[180px] w-full object-cover rounded"
+                         onerror="this.src='https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400'">
 
                     <h4 class="text-gray-700 my-0 sm:my-2 text-start text-sm sm:text-base">
                         {{ $item['product_name'] }}
@@ -41,7 +42,7 @@
   @endif
 </div>
 <img 
-    src="{{ asset('multi.jpg') }}" 
+    src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" 
     alt="" 
     class="my-2 w-full h-auto object-cover rounded"
 >
@@ -57,30 +58,30 @@
             sm:overflow-visible
         ">
             
-            <a href="/company/dell" 
+            <a href="/company/DELL" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="{{ asset('dell.jpg') }}" alt="">
+                     src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600" alt="Dell">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">DELL</h4>
                     <i class="bi bi-arrow-right"></i>
                 </div>
             </a>
 
-            <a href="/company/lenovo" 
+            <a href="/company/LENOVO" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="{{ asset('lenove.jpg') }}" alt="">
+                     src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600" alt="Lenovo">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">LENOVO</h4>
                     <i class="bi bi-arrow-right"></i>
                 </div>
             </a>
 
-            <a href="/company/hp" 
+            <a href="/company/HP" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="{{ asset('hp.jpg') }}" alt="">
+                     src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600" alt="HP">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">HP</h4>
                     <i class="bi bi-arrow-right"></i>
@@ -126,21 +127,21 @@
     <div class="bg-white shadow-xl rounded-2xl 
                 flex items-center justify-center 
                 h-[180px] sm:h-[220px] lg:h-[250px] p-6">
-        <img src="https://smarttechstore.com/cdn/shop/files/lazada-logo-png_seeklogo-504219.png?v=1766236339&width=1000"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lazada_Logo.svg/2560px-Lazada_Logo.svg.png"
              class="max-h-full object-contain">
     </div>
 
     <div class="bg-white shadow-xl rounded-2xl 
                 flex items-center justify-center 
                 h-[180px] sm:h-[220px] lg:h-[250px] p-6">
-        <img src="https://smarttechstore.com/cdn/shop/files/shopee.jpg?v=1766236318&width=1000"
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/2560px-Shopee.svg.png"
              class="max-h-full object-contain">
     </div>
 
     <div class="bg-white shadow-xl rounded-2xl 
                 flex items-center justify-center 
                 h-[180px] sm:h-[220px] lg:h-[250px] p-6">
-        <img src="https://smarttechstore.com/cdn/shop/files/tiktok_shop.webp?v=1766237079&width=1000"
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png"
              class="max-h-full object-contain">
     </div>
 
