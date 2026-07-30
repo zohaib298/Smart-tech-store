@@ -1,7 +1,7 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1400" alt="Sale Banner" class="w-full h-auto object-cover">
+  <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1400" alt="Sale Banner" class="w-full h-[300px] object-cover">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -44,7 +44,7 @@
 <img 
     src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" 
     alt="" 
-    class="my-2 w-full h-auto object-cover rounded"
+    class="my-2 w-full h-[300px] object-cover rounded"
 >
 <div class="container mx-auto my-10">
     <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -119,7 +119,6 @@
 
 </div>
 
-
        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
             gap-6 w-[95%] sm:w-[90%] lg:w-[80%] 
             mx-auto my-20">
@@ -150,7 +149,5 @@
         
      <x-footer />
 
-
-         
 </div>
 </x-layout>
