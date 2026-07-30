@@ -1,7 +1,7 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1400" alt="Sale Banner" class="w-full h-[300px] object-cover">
+  <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1400" alt="Sale Banner" class="w-full h-[200px] object-cover">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -41,11 +41,13 @@
       <h4 class="text-red-500 text-center my-10">No deals available</h4>
   @endif
 </div>
+
 <img 
-    src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" 
+    src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=1400" 
     alt="" 
-    class="my-2 w-full h-[300px] object-cover rounded"
+    class="my-2 w-full h-[200px] object-cover object-center rounded"
 >
+
 <div class="container mx-auto my-10">
     <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
     <div class="p-2 relative">
@@ -61,7 +63,7 @@
             <a href="/company/DELL" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600" alt="Dell">
+                     src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600" alt="Dell">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">DELL</h4>
                     <i class="bi bi-arrow-right"></i>
