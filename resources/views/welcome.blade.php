@@ -1,7 +1,7 @@
 <x-layout>
    
   <x-nav_user />
-  <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1400" alt="Sale Banner" class="w-full h-[200px] object-cover">
+  <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1400" alt="Sale Banner" class="w-full h-[200px] object-cover object-center">
     <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
@@ -43,7 +43,7 @@
 </div>
 
 <img 
-    src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=1400" 
+    src="https://images.unsplash.com/photo-1468436139062-f60a71c5c892?w=1400" 
     alt="" 
     class="my-2 w-full h-[200px] object-cover object-center rounded"
 >
@@ -63,7 +63,7 @@
             <a href="/company/DELL" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600" alt="Dell">
+                     src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600" alt="Dell">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">DELL</h4>
                     <i class="bi bi-arrow-right"></i>
@@ -83,7 +83,7 @@
             <a href="/company/HP" 
                class="min-w-[80%] sm:min-w-0 p-3">
                 <img class="h-[200px] sm:h-[250px] lg:h-[300px] w-full object-cover rounded"
-                     src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600" alt="HP">
+                     src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=600" alt="HP">
                 <div class="flex gap-2 mt-2 items-center">
                     <h4 class="text-md">HP</h4>
                     <i class="bi bi-arrow-right"></i>
