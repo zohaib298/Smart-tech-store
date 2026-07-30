@@ -161,7 +161,8 @@
              alt="Acer Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://placehold.co/160x50/f57224/ffffff?text=Lazada&font=roboto"
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/054/650/831/small_2x/lazada-logo-rounded-lazada-logo-free-png.png"
+                 alt="Lazada"
                  class="h-10 object-contain">
         </div>
     </div>
@@ -172,7 +173,8 @@
              alt="HP Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://placehold.co/160x50/ee4d2d/ffffff?text=Shopee&font=roboto"
+            <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/itxiuybmyrbkkhrykvzi?ik-sanitizeSvg=true"
+                 alt="Shopee"
                  class="h-10 object-contain">
         </div>
     </div>
@@ -183,7 +185,8 @@
              alt="Asus Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://placehold.co/160x50/000000/ffffff?text=TikTok+Shop&font=roboto"
+            <img src="https://www.channelengine.com/hs-fs/hubfs/TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg?width=600&height=600&name=TikTok%20Shop-online-marketplace-logo-1024x250-1.jpg"
+                 alt="TikTok Shop"
                  class="h-10 object-contain">
         </div>
     </div>
