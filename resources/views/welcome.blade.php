@@ -161,7 +161,7 @@
              alt="Acer Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://smarttechstore.com/cdn/shop/files/lazada-logo-png_seeklogo-504219.png?v=1766236339&width=1000"
+            <img src="https://placehold.co/160x50/f57224/ffffff?text=Lazada&font=roboto"
                  class="h-10 object-contain">
         </div>
     </div>
@@ -172,7 +172,7 @@
              alt="HP Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://smarttechstore.com/cdn/shop/files/shopee.jpg?v=1766236318&width=1000"
+            <img src="https://placehold.co/160x50/ee4d2d/ffffff?text=Shopee&font=roboto"
                  class="h-10 object-contain">
         </div>
     </div>
@@ -183,7 +183,7 @@
              alt="Asus Laptop"
              class="h-[220px] sm:h-[260px] lg:h-[290px] w-full object-cover">
         <div class="w-full flex items-center justify-center py-4">
-            <img src="https://smarttechstore.com/cdn/shop/files/tiktok_shop.webp?v=1766237079&width=1000"
+            <img src="https://placehold.co/160x50/000000/ffffff?text=TikTok+Shop&font=roboto"
                  class="h-10 object-contain">
         </div>
     </div>
