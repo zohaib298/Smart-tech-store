@@ -1,20 +1,8 @@
 <x-layout>
    
   <x-nav_user />
-
-  {{-- Hero Banner 1 --}}
-  <div class="relative w-full h-[450px]">
-    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" 
-         alt="Sale Banner" 
-         class="w-full h-full object-cover object-center">
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-start px-10 sm:px-20">
-      <h1 class="text-white text-3xl sm:text-5xl font-bold mb-3">Premium Laptops</h1>
-      <p class="text-gray-200 text-sm sm:text-lg mb-6">Top brands. Best prices. Fast delivery.</p>
-      <a href="#shopbybrand" class="bg-white text-black px-6 py-3 rounded-xl font-medium hover:bg-gray-100">Shop Now</a>
-    </div>
-  </div>
-
-  <div class="container mx-auto my-10">
+  <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1400" alt="Sale Banner" class="w-full h-[400px] object-cover object-center">
+    <div class="container mx-auto my-10">
   @if (count($products)>0)
       <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
     <div class="p-2 relative">
@@ -41,17 +29,7 @@
   @endif
 </div>
 
-  {{-- Hero Banner 2 --}}
-  <div class="relative w-full h-[350px] my-2">
-    <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=1400" 
-         alt="" 
-         class="w-full h-full object-cover object-center rounded">
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-end px-10 sm:px-20 rounded">
-      <h2 class="text-white text-2xl sm:text-4xl font-bold mb-3">3 Month Warranty</h2>
-      <p class="text-gray-200 text-sm sm:text-base mb-6">Trusted. Reliable. Guaranteed.</p>
-      <a href="/contact" class="bg-white text-black px-6 py-3 rounded-xl font-medium hover:bg-gray-100">Contact Us</a>
-    </div>
-  </div>
+<img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=1400" alt="" class="my-2 w-full h-[400px] object-cover object-center rounded">
 
 <div class="container mx-auto my-10">
     <div class="w-[95%] sm:w-[90%] lg:w-[75%] mx-auto">
